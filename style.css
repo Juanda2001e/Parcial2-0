@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family:Shanti;
+    src: url(fonts/against\ regular.ttf); 
+}
+body{
+    background-color: #f9ead7;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+.logo{
+    font-family:Shanti;
+    justify-content:left;
+    margin: 5px 30px;
+    padding: 5px;
+}
+.menu{
+    display: flex;
+    flex-direction:row;
+    position: sticky;
+    background: linear-gradient(#6b7b40 90%,#64080d);
+    color:#f9ead7 ;
+    width: 100%;
+    height: 50px;
+    margin-top: 0;
+    align-items: center;
+}
+ul{
+    display: flex;
+    margin-left: 100px;
+    
+}
+li{
+    margin:0px 20px;
+    padding: 5px;
+    font-size: large;
+    
+}
+.hh{
+
+    background-color: #64080d;
+    height: 230px;
+    width: 34px;}
+main{
+    box-sizing: border-box;
+    margin-top: 0;
+    height: 650px;
+    display:flex;
+    flex-direction: column;
+}
+h2{
+    color:#64080d;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 0;
+    font-family: Shanti;
+}
+.imagen{
+    width: 100%;
+    height: 570px;
+    margin: auto;
+    mask-image: linear-gradient(transparent 1%,black,transparent);
+    
+}
+img{
+    display:flexbox ;
+    justify-content: center;
+    margin: auto;
+}  
+.Shanti{
+    color: #64080d;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-size: larger;
+    padding: 20px;
+    
+}
+.title{
+    color:#64080d;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    font-family: Shanti;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height:auto;
+    margin: auto;
+    border-radius: 30px;
+
+
+}
+.tarjetas{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: #f9ead7;
+    background-color: #64080d;
+    width: 30%;
+    font-size: 11px;
+    height:500px;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+
+    
+}
+#fresa{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height:250px;
+    width: 300px;
+    background-color: #41050879;
+    border-radius: 30px;
+
+}
+#text{
+    font-size: medium;
+    margin: 10px 30px;
+    padding: 10px;
+    background-color: #41050879;
+    border-radius: 30px;
+    font-size: small;
+}
+#textfrutos{
+    font-size: 10px;
+}
+.nombres_productos{
+    display: flex;
+    justify-content:space-around;
+    color: #64080d;
+    font-family: Shanti;
+    
+}
+#FM{
+    margin-left: 30px;
+}
+#MC{
+    margin-right: 30px;
+}
+.formulario{
+    background-color: #64080de3;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 30px;
+}
+label{
+    padding: 10px;
+    color: #f9ead7;
+    font-family: Shanti;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: solid 3px #f9ead7;
+    color: #f9ead7;
+    height: 30px;
+    padding: 10px;
+}
+textarea{
+    background-color: #f9ead7;
+    height: 90px;
+}
+#Enviar{
+    height: 30px;
+    padding: 40px;
+    font-size: larger;
+}
