@@ -233,3 +233,7 @@ textarea{
     height: 50px;
     margin: 30px;
 }
+a{
+    text-decoration: none;
+    color: #f9ead7;
+}
